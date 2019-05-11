@@ -22,6 +22,7 @@ const channelid2 = config.channelid2
 
 var priceloop = setInterval(updateSwiftex, 480 * 1000);
 var priceloop2 = setInterval(updateAltmarkets, 480 * 1000);
+var priceloop3 = setInterval(updateCratex, 480 * 1000);
 var last, buy, sell, open, low, high, vol, avgprice, price_change_percent, statusEmbed, altmlast, altmbuy, altmsell, altmhigh, altmlow, altmvol;
 // ^^ this is such a cheap hax lul
 // Fix this in the future  just pass the message onto the request and push it from there.

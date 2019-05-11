@@ -1,0 +1,47 @@
+{
+  "name": "AusCash-Prices",
+  "version": "1.2.3",
+  "description": "A utility Discord bot for Australia Cash Community.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/farsider350/pricebot"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "discord-js",
+    "cryptocurrency"
+  ],
+  "author": "Twinky",
+  "contributors": [
+    {
+      "name": "Twinky",
+      "email": "admin@genix.cx"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bignumber.js": "^5.0.0",
+    "blockchain.info": "^2.12.1",
+    "config": "^3.0.1",
+    "discord.js": "^11.3.2",
+    "fs": "0.0.1-security",
+    "maplechange-api": "^1.0.0",
+    "moment-timezone": "^0.5.23",
+    "nodejs-websocket": "^1.7.2",
+    "request": "^2.88.0",
+    "sqlite3": "^4.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}

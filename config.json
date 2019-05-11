@@ -1,0 +1,26 @@
+{
+    "token2": "NTc2NzAwNTAzMDg2MzMzOTYy.XNaUTA.mZ7V2Qqxe1JmNELgvNBukdubwLw",
+    "prefix": "$",
+    "botId": "AusPrices#5645",
+    "coinName": "Australia Cash",
+    "ticker": "AUS",
+    "website": "https://www.altcoinwiki.io/index.php",
+    "swiftex": "https://swiftex.co/api/v2/tickers/aus-btc",
+    "altmarkets": "https://altmarkets.io/api/v2/tickers/ausbtc",
+    "cratex": "https://cratex.io/api/v1/get_markets.php?market=AUS/BTC",
+    "botVersion": "0.0.1",
+    "ownerid": "390374489688637440",
+    "RPCuser": "user",
+    "RPCpass": "pass",
+    "RPCUrl": "http://127.0.0.1:15570",
+    "trellokey": "039575da97f7303868725fa1b115f556",
+    "game": "null",
+      "welcome": {
+      "enabled": false,
+      "message": "Welcome {user} to {server} :smile:",
+      "add_role": {
+        "enabled": false,
+        "role": "default"
+      }
+  }
+}
